@@ -1,0 +1,647 @@
+.circular-progress-text {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin: 7px;
+  padding: 7px;
+
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+.circular-progress-text1 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin: 7px;
+  padding: 7px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.circular-progress-bar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 200px;
+}
+.circular-progress-container {
+  margin-left: 80px;
+
+  height: 80px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.each-card {
+  height: 600px;
+  width: 700px;
+  /* background-color: green; */
+  text-align: center;
+  display: block;
+  margin-left: 390px;
+  margin-top: 0px;
+  padding-top: 20px;
+  z-index: 3;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.textRed {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Prototype";
+  letter-spacing: 3px;
+  color: white;
+}
+.inputDiv {
+  display: block;
+  width: 22%;
+  margin-left: 270px;
+  height: 100px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  float: left;
+  margin-bottom: 10px;
+}
+.buttonDiv {
+  display: block;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 200px;
+  float: left;
+}
+.button-1 {
+  margin-right: 10px;
+  font-size: 12px;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  background-color: rgba(255, 0, 0, 0.696);
+  color: white;
+  border-radius: 5px;
+}
+.button-2 {
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+  border: 1px solid #3498db;
+  background-color: rgba(255, 0, 0, 0.696);
+  color: white;
+  border-radius: 5px;
+}
+.hint1Div {
+  height: 40px;
+  width: 180px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  margin-left: 270px;
+  margin-top: 10px;
+}
+.hint1Div1 {
+  height: 40px;
+  width: 180px;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  margin-left: 270px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 321px) {
+  .each-card {
+    height: 500px;
+    width: 100%;
+    /* background-color: green; */
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 3;
+  }
+  .circular-progress-text {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-text1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 0px;
+  }
+  .circular-progress-container {
+    margin-left: 100px;
+
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .inputDiv {
+    display: block;
+    width: 22%;
+    margin-left: 80px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .each-card {
+    border: none;
+  }
+  .hint1Div {
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-left: 80px;
+  }
+  .hint1Div1 {
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 322px) and (max-width: 376px) {
+  .each-card {
+    height: 500px;
+    width: 100%;
+
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 3;
+    border: none;
+  }
+  .circular-progress-text {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-text1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 0px;
+  }
+  .circular-progress-container {
+    margin-left: 120px;
+
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .inputDiv {
+    display: block;
+    width: 22%;
+    margin-left: 110px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hint1Div {
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-left: 100px;
+  }
+  .hint1Div1 {
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 378px) and (max-width: 430px) {
+  .each-card {
+    height: 500px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 3;
+  }
+  .circular-progress-text {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-text1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #ecf0f1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 0px;
+  }
+  .circular-progress-container {
+    margin-left: 130px;
+
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .inputDiv {
+    display: block;
+    width: 22%;
+    margin-left: 135px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hint1Div {
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-left: 130px;
+  }
+  .hint1Div1 {
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 435px) and (max-width: 770px) {
+  .each-card {
+    height: 600px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 3;
+  }
+  .circular-progress-text {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-text1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 200px;
+  }
+  .circular-progress-container {
+    margin-left: 135px;
+
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .inputDiv {
+    display: block;
+    width: 25%;
+    margin-left: 300px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hint1Div {
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-left: 300px;
+  }
+  .hint1Div1 {
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+  .button-1 {
+    margin-right: 0px;
+    margin-left: 0px;
+
+    font-size: 12px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: rgba(255, 0, 0, 0.696);
+    color: white;
+    border-radius: 5px;
+  }
+  .button-2 {
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 10px;
+    border: 1px solid #3498db;
+    background-color: rgba(255, 0, 0, 0.696);
+    color: white;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 771px) and (max-width: 1025px) {
+  .each-card {
+    height: 600px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 3;
+  }
+  .circular-progress-text {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-text1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .circular-progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 200px;
+  }
+  .circular-progress-container {
+    margin-left: 135px;
+
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 160px;
+  }
+  .inputDiv {
+    display: block;
+    width: 25%;
+    margin-left: 300px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hint1Div {
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-left: 350px;
+  }
+  .hint1Div1 {
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-top: 10px;
+  }
+  .label {
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  .buttonDiv {
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 40px;
+  }
+}

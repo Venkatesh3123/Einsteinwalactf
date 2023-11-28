@@ -1,0 +1,163 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, rgba(0, 0, 248, 0.197), white);
+  color: white;
+  padding: 1rem;
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  color: black;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+span {
+  margin-top: 4px;
+  letter-spacing: 0.6px;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  background-image: linear-gradient(to left, rgba(0, 0, 248, 0.197), white);
+
+  height: 400px;
+}
+.img {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-toggle {
+  display: flex;
+}
+/* Basic Button Styling */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  background-color: rgba(255, 0, 0, 0.696);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Hover State */
+.button:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+/* Active/Clicked State */
+.button:active {
+  background-color: #21618c;
+}
+
+.footer {
+  background-image: url(https://images.icompaas.com/i/dot-bg.svg),
+    linear-gradient(to left, rgba(0, 0, 248, 0.197), white);
+  height: 268px;
+  width: 100%;
+  margin-top: 0px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.p {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+  }
+  span {
+    margin-top: 5.5px;
+    letter-spacing: 0.6px;
+  }
+  .imgDiv {
+    margin-top: 0px;
+  }
+  .footer {
+    margin-top: 0px;
+    height: 170px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .show-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #333;
+  }
+  .button {
+    width: 130px;
+    font-size: 12px;
+  }
+  .p {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 321px) {
+  .footer {
+    margin-top: 0px;
+    height: 180px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+  }
+  span {
+    margin-top: 8px;
+    letter-spacing: 0.6px;
+  }
+  .p {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .button {
+    width: 130px;
+    font-size: 12px;
+  }
+}
