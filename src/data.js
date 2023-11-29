@@ -155,7 +155,7 @@ export default function Data() {
                     color: "green",
                   }}
                 >
-                  *****hdjd
+                  *Method of sending messages via telegraph
                 </span>
               ) : (
                 ""
@@ -204,7 +204,7 @@ export default function Data() {
                     color: "green",
                   }}
                 >
-                  *****hdjd
+                  *Every image contains more than just a picture
                 </span>
               ) : (
                 ""
@@ -253,7 +253,7 @@ export default function Data() {
                     color: "green",
                   }}
                 >
-                  *****hdjd
+                  *All the secrets are in the WebPage
                 </span>
               ) : (
                 ""

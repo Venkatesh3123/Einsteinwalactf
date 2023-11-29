@@ -164,3 +164,15 @@ span {
     width: 90%;
   }
 }
+@media screen and (min-width: 322px) and (max-width: 376px) {
+  .img {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  .img {
+    height: 380px;
+    width: 400px;
+  }
+}
