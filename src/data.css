@@ -93,9 +93,9 @@
   text-align: center;
   justify-content: space-around;
   margin-top: 10px;
-  width: 200px;
+  width: 300px;
   margin-bottom: 20px;
-  margin-left: 120px;
+  margin-left: 75px;
   /* float: left; */
 }
 .button-1 {
@@ -111,7 +111,7 @@
 }
 .button-2 {
   font-size: 14px;
-  width: 100px;
+  width: 120px;
   height: 30px;
   cursor: pointer;
   margin-right: 30px;
@@ -226,7 +226,8 @@
     border: none;
   }
   .buttonDiv {
-    margin-left: 78px;
+    width: auto;
+    margin-left: 49px;
     /* float: left; */
   }
   .hint1Div {
@@ -330,7 +331,8 @@
     align-items: center;
   }
   .buttonDiv {
-    margin-left: 110px;
+    width: auto;
+    margin-left: 49px;
     /* float: left; */
   }
   .hint1Div {
@@ -433,7 +435,8 @@
     align-items: center;
   }
   .buttonDiv {
-    margin-left: 130px;
+    width: auto;
+    margin-left: 49px;
     /* float: left; */
   }
   .hint1Div {
@@ -537,7 +540,8 @@
     align-items: center;
   }
   .buttonDiv {
-    margin-left: 290px;
+    width: auto;
+    margin-left: 0px;
     /* float: left; */
   }
   .hint1Div {
@@ -664,7 +668,8 @@
     margin-left: -100px;
   }
   .buttonDiv {
-    margin-left: 400px;
+    width: 300px;
+    margin-left: 49px;
     /* float: left; */
   }
   .hint1Div {
@@ -693,8 +698,8 @@
     text-align: center;
     justify-content: space-around;
     margin-top: 10px;
-    width: 200px;
-    margin-left: 150px;
+    width: auto;
+    margin-left: 60px;
     margin-bottom: 20px;
   }
 }
